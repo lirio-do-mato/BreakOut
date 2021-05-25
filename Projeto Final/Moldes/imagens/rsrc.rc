@@ -1,0 +1,22 @@
+500 ICON MOVEABLE PURE LOADONCALL DISCARDABLE "MAINICON.ICO"
+
+111 BITMAP MOVEABLE PURE LOADONCALL DISCARDABLE "Sweep.bmp"
+112 BITMAP MOVEABLE PURE LOADONCALL DISCARDABLE "b2.bmp"
+
+
+600 MENUEX MOVEABLE IMPURE LOADONCALL DISCARDABLE
+BEGIN
+    POPUP "&File", , , 0
+    BEGIN
+        MENUITEM "&Exit", 1000
+    END
+    POPUP "&Sons", , , 0
+    BEGIN
+    	MENUITEM "&Play sound loop",     1903
+        MENUITEM "&Stop sound loop",     1904
+        MENUITEM "&Play by thread once", 1905
+        MENUITEM "&Play1 by thread once", 1906
+        MENUITEM "&Play2 by thread once", 1907
+        MENUITEM "&Play3 by thread once", 1908
+    END
+END

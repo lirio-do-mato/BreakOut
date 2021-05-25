@@ -1,0 +1,20 @@
+500 ICON MOVEABLE PURE LOADONCALL DISCARDABLE "MAINICON.ICO"
+
+600 MENUEX MOVEABLE IMPURE LOADONCALL DISCARDABLE
+BEGIN
+    POPUP "&File", , , 0
+    BEGIN
+        MENUITEM "&Exit", 1000
+    END
+    POPUP "&Seleciona", , , 0
+    BEGIN
+        MENUITEM "&Musica 1", 1900
+		MENUITEM "&Musica 2", 1901
+		MENUITEM "&Parar Musica", 1902
+		MENUITEM "&Pausar Musica", 1903
+		MENUITEM "&Retornar Musica", 1904
+
+    END
+END
+
+
