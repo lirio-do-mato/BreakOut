@@ -214,3 +214,9 @@ DesenhaReta PROTO :DWORD, :DWORD, :DWORD                                   ;
             return 0
         DesenhaReta endp
     end start
+    
+;Logica da bola
+;Ela tem 4 direcoes nas quais ela pode andar uma para cada diagonal
+;ao colidir inverte a direcao, se colidir lateralmente ela so inverte entre direita e esquerda
+;se colidir na vertical ela agora vai na direcao oposta
+;se colidir com um quadrado inverte o mov e o quadrado some
